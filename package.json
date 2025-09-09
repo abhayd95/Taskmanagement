@@ -1,0 +1,39 @@
+{
+    "name": "orbai-attendance-task-system",
+    "version": "1.0.0",
+    "description": "Full-stack attendance and task management system",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js",
+        "build": "cd frontend && npm run build",
+        "install-all": "npm install && cd frontend && npm install"
+    },
+    "keywords": [
+        "attendance",
+        "task-management",
+        "react",
+        "nodejs",
+        "mysql"
+    ],
+    "author": "OrbAi",
+    "license": "MIT",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "express-rate-limit": "^7.1.5",
+        "express-validator": "^7.0.1",
+        "helmet": "^7.1.0",
+        "jsonwebtoken": "^9.0.2",
+        "moment": "^2.29.4",
+        "multer": "^1.4.5-lts.1",
+        "mysql2": "^3.6.5",
+        "sqlite3": "^5.1.7",
+        "xlsx": "^0.18.5"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.2"
+    }
+}
